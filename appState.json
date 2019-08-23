@@ -1,0 +1,112 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8bdd8fb3-e920-4c96-8e0f-02750414e159": {
+        "id": "8bdd8fb3-e920-4c96-8e0f-02750414e159",
+        "parent": null,
+        "name": "nonsigma",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "db5df2a6-c2f2-40c0-9be2-1ee6b84d9398",
+          "949be840-269b-42f8-b861-26db03ade2fa",
+          "e01cfc42-d2ee-4fca-b476-25db7da9e0e6"
+        ],
+        "isRemovable": false,
+        "filePath": "nonsigma"
+      },
+      "c0ca5ff1-0f9b-4291-9ab8-1a9c83431ad6": {
+        "id": "c0ca5ff1-0f9b-4291-9ab8-1a9c83431ad6",
+        "parent": null,
+        "name": "README.md",
+        "type": "MARKDOWN_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "README.md",
+        "code": "# nonsigma\nthis is a test project\n"
+      },
+      "db5df2a6-c2f2-40c0-9be2-1ee6b84d9398": {
+        "id": "db5df2a6-c2f2-40c0-9be2-1ee6b84d9398",
+        "parent": "8bdd8fb3-e920-4c96-8e0f-02750414e159",
+        "name": "test.java",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "nonsigma/test.java",
+        "code": "//this is a test\n"
+      },
+      "949be840-269b-42f8-b861-26db03ade2fa": {
+        "id": "949be840-269b-42f8-b861-26db03ade2fa",
+        "parent": "8bdd8fb3-e920-4c96-8e0f-02750414e159",
+        "name": "test.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "nonsigma/test.js",
+        "code": ""
+      },
+      "e01cfc42-d2ee-4fca-b476-25db7da9e0e6": {
+        "id": "e01cfc42-d2ee-4fca-b476-25db7da9e0e6",
+        "parent": "8bdd8fb3-e920-4c96-8e0f-02750414e159",
+        "name": "sample.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "nonsigma/sample.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "8bdd8fb3-e920-4c96-8e0f-02750414e159",
+    "openFiles": [
+      "c0ca5ff1-0f9b-4291-9ab8-1a9c83431ad6"
+    ],
+    "currentFileId": "c0ca5ff1-0f9b-4291-9ab8-1a9c83431ad6",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "nonsigma",
+    "projectDescription": "Imported from https://github.com/HirudineeADRT/nonsigma",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1566536318553
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "nonsigma",
+      "url": "https://github.com/HirudineeADRT/nonsigma"
+    }
+  }
+}
